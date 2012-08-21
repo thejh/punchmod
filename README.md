@@ -1,4 +1,4 @@
-This is `punchdebug`, a tool for force-loading modules with a wrong vermagic
+This is `punchmod`, a tool for force-loading modules with a wrong vermagic
 even on kernels without `CONFIG_MODULE_FORCE_LOAD`. Because root should be able
 to mess up his kernel as much as he wants to, that's why. Also because android
 app developers might want to avoid compiling a module for all the kernels out
